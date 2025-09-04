@@ -1,0 +1,34 @@
+5. Pagination
+
+If a user has 100+ notes, listing them on one page is slow.
+
+Use Django’s Paginator class to split into pages.
+
+6. File Uploads
+
+Add an attachment field in notes (upload PDFs/images).
+
+Learn about MEDIA_URL and MEDIA_ROOT.
+
+7. AJAX / REST API
+
+Make your search work live (without refreshing page) using AJAX.
+
+Or build a REST API for notes using Django REST Framework (DRF).
+
+8. Deployment Concepts
+
+Set up proper STATICFILES_DIRS, whitenoise, gunicorn, etc.
+
+Deploy your app to Heroku, PythonAnywhere, or Railway.
+
+🔹 When to build a new project?
+
+Once you’ve implemented most of the above in your note app, you’ll have covered almost all core Django features.
+Then you can start a new project to practice:
+
+e-commerce (cart, checkout, payments)
+
+blog (categories, tags, comments, likes)
+
+social app (friends, messages, notifications)

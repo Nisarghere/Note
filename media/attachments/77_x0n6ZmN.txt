@@ -1,0 +1,34 @@
+ IDORs, Business Logic, Race Condition or API 
+
+The tools they used
+Their testing techniques
+Their reconnaissance strategies
+How they approached vulnerability reporting
+
+what server sees
+
+What the browser decodes
+
+What the final rendered content becomes
+
+crlf injection points : Usually in URL parameters, HTTP headers, or cookies that get reflected into the response.
+
+subdomain enumeration 
+
+--
+
+if the response is json with content-type text html, its good for testing reflected XSS
+
+
+--
+
+
+HTML: <img src=x onerror=alert(1)>
+
+JS: '"><script>alert(1)</script>
+
+Attribute: " onmouseover="alert(1)
+
+SVG: <svg/onload=alert(1)>
+
+URL: javascript:alert(1)

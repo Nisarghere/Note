@@ -1,0 +1,2 @@
+--> go on the webaite as a regular user, smell every part of the website and look where the bug might can be 
+--> turn a no into yes on the website
